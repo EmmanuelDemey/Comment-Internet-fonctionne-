@@ -1,1 +1,6 @@
-= Qualité Front-end
+Dans cet ouvrage, nous souhaitons expliquer en détail comment fonctionnent le web. De l'ouverture de votre navigateur de prédilection à la consultation de la page, nous allons présenter, en détails, les différentes étapes qui s'exécutent pendant ces quelques millisecondes.
+
+Nous allons partir d'une application d'exemple composé d'une API REST développé avec Express.js et d'une application web développée avec 11ty, servie par NGINX. Nous allons également prendre le navigateur Firefox comme navigateur utilisé pendant notre expérimentation.
+
+Durant la première partie de cette ouvrage, nous allons récupérer les codes sources de Firefox, NGINX et Node.js afin de pouvoir regarder et tester le code pensant nos expérimentations. Nous lancerons ensuite notre application.
+
