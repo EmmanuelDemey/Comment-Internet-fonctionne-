@@ -1,6 +1,21 @@
-Dans cet ouvrage, nous souhaitons expliquer en détail comment fonctionnent le web. De l'ouverture de votre navigateur de prédilection à la consultation de la page, nous allons présenter, en détails, les différentes étapes qui s'exécutent pendant ces quelques millisecondes.
+# Comment Internet fonctionne ?
 
-Nous allons partir d'une application d'exemple composé d'une API REST développé avec Express.js et d'une application web développée avec 11ty, servie par NGINX. Nous allons également prendre le navigateur Firefox comme navigateur utilisé pendant notre expérimentation.
+Dans cet ouvrage, nous souhaitons expliquer en détail comment fonctionnent le web.
+De l'ouverture de votre navigateur de prédilection à la consultation de la page, nous allons présenter, en détails, les différentes étapes qui s'exécutent pendant ces quelques millisecondes.
 
-Durant la première partie de cette ouvrage, nous allons récupérer les codes sources de Firefox, NGINX et Node.js afin de pouvoir regarder et tester le code pensant nos expérimentations. Nous lancerons ensuite notre application.
+Nous allons partir d'une application d'exemple composé d'une API REST développé avec Express.js et d'une application web développée avec 11ty, servie par NGINX.
+Nous allons également prendre le navigateur Firefox comme navigateur utilisé pendant notre expérimentation.
 
+Durant la première partie de cette ouvrage, nous allons récupérer les codes sources de Firefox, NGINX et Node.js afin de pouvoir regarder et tester le code pensant nos expérimentations.
+Nous lancerons ensuite notre application.
+
+## Présentation de l'application file rouge
+
+Afin de répondre à la problématique de cet ouvrage, nous allons utiliser une application assez simle. Celle-ci
+sera une application statique dévelopée avec Eleventy, servie par Nginx, et une API développée sur Node.js
+
+## Installation des différentes briques
+
+Afin de vraiment bien comprendre le fonctionnement d'internet, nous allons à présent télécharger, installer et
+lancer localement un navigateur, NGinx et la plateforme Node.js. Le fait de lancer ces trois briques depuis
+le code source, nous permettra d'y jeter un coup d'oeil et d'entrer dans leurs entrailles.
