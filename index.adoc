@@ -19,3 +19,30 @@ sera une application statique dévelopée avec Eleventy, servie par Nginx, et un
 Afin de vraiment bien comprendre le fonctionnement d'internet, nous allons à présent télécharger, installer et
 lancer localement un navigateur, NGinx et la plateforme Node.js. Le fait de lancer ces trois briques depuis
 le code source, nous permettra d'y jeter un coup d'oeil et d'entrer dans leurs entrailles.
+
+### Node.js
+
+### Nginx
+
+### Firefox
+
+### Applications
+
+Nous allons à présent récupérer, installer et lancer l'application utilisée tout au long de cette ouvrage.
+
+## DNS
+
+Il y plusieurs cache DNS lorsque nous naviguons sur le net, afin de limiter le nombre de résolution nécessaire. Le premier cache
+que nous pouvons mentionner est le cache de votre ordinateur.
+
+## HTTP
+
+## CSP
+
+## Parsing
+
+## Ressources Statiques
+
+## Paint
+
+## CORS
