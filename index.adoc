@@ -22,7 +22,11 @@ le code source, nous permettra d'y jeter un coup d'oeil et d'entrer dans leurs e
 
 ### Node.js
 
+Node.js sera la plateforme qui exécutera une API REST que nous développerons avec le langage Typescript.
+
 ### Nginx
+
+NGinx hebergera notre application statique dévelopée via Eleventy.
 
 ### Firefox
 
