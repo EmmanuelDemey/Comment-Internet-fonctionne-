@@ -43,6 +43,19 @@ que nous pouvons mentionner est le cache de votre ordinateur.
 
 ## CSP
 
+Le terme CSP signifie Content Security Policy. C'est un mécanisme permettant de définir si un site Web, hébergé sur un
+certain, est capable ou non de faire des requetes HTTP vers un autre service hébergé sur un autre nom de domain, afin
+de récupérer un ressource (au sens REST, ou une simple ressource statique).
+
+Si cette contrainte n'est pas respectée, la requete HTTP sera en erreur, et vous obtiendrez une erreur similaire à la suivante :
+
+[source]
+----
+Error: Access to fetch at 'https://external-api.com' from origin 'chrome-extension://bunchofchars' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: No 'Access-Control-Allow-Origin' header is present on the requested resource. If an opaque response serves your needs, set the request's mode to 'no-cors' to fetch the resource with CORS disabled.
+----
+
+
+
 ## Parsing
 
 ## Ressources Statiques
