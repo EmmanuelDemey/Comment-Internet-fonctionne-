@@ -14,25 +14,7 @@ Nous lancerons ensuite notre application.
 Afin de répondre à la problématique de cet ouvrage, nous allons utiliser une application assez simle. Celle-ci
 sera une application statique dévelopée avec Eleventy, servie par Nginx, et une API développée sur Node.js
 
-## Installation des différentes briques
-
-Afin de vraiment bien comprendre le fonctionnement d'internet, nous allons à présent télécharger, installer et
-lancer localement un navigateur, NGinx et la plateforme Node.js. Le fait de lancer ces trois briques depuis
-le code source, nous permettra d'y jeter un coup d'oeil et d'entrer dans leurs entrailles.
-
-### Node.js
-
-Node.js sera la plateforme qui exécutera une API REST que nous développerons avec le langage Typescript.
-
-### Nginx
-
-NGinx hebergera notre application statique dévelopée via Eleventy.
-
-### Firefox
-
-### Applications
-
-Nous allons à présent récupérer, installer et lancer l'application utilisée tout au long de cette ouvrage.
+include::chapters/setup/index.adoc[]
 
 ## DNS
 
@@ -54,11 +36,23 @@ Si cette contrainte n'est pas respectée, la requete HTTP sera en erreur, et vou
 Error: Access to fetch at 'https://external-api.com' from origin 'chrome-extension://bunchofchars' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: No 'Access-Control-Allow-Origin' header is present on the requested resource. If an opaque response serves your needs, set the request's mode to 'no-cors' to fetch the resource with CORS disabled.
 ----
 
-
-
 ## Parsing
 
+### DOM
+
+### CSSOM
+
+### Accessibility Tree
+
 ## Ressources Statiques
+
+### JavaScript
+
+### CSS
+
+### Images
+
+### Defer, async, ...
 
 ## Paint
 
