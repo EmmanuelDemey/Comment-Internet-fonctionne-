@@ -23,6 +23,37 @@ que nous pouvons mentionner est le cache de votre ordinateur.
 
 ## HTTP
 
+Voici un exemple de message HTTP. Nous avons sur la première ligne le verbe HTTP, l'URI ainsi que la version du protocole HTTP.
+Puis, nous avons une succession de métadonnées, appelées en-tetes.
+
+[source]
+----
+GET /hello.htm HTTP/1.1
+User-Agent: Mozilla/4.0 (compatible; MSIE5.01; Windows NT)
+Host: www.tutorialspoint.com
+Accept-Language: en-us
+Accept-Encoding: gzip, deflate
+Connection: Keep-Alive
+----
+
+Ci-dessous, vous trouverez la liste des verbes HTTP que nous pouvons utiliser .
+
+* GET
+* POST
+* POST
+* PUT
+* OPTIONS
+* DELETE
+* PATCH
+* TRACE
+* CONNECT
+
+### HTTPS
+
+### HTTP2
+
+### HTTP3
+
 ## CSP
 
 Le terme CSP signifie Content Security Policy. C'est un mécanisme permettant de définir si un site Web, hébergé sur un
